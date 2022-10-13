@@ -253,7 +253,14 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    animation: fadeIn 3s;
 }
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 .section__subtitle--intro {
     display: inline-block;
