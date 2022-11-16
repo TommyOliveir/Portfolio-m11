@@ -403,12 +403,14 @@ header {
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 150px;
-    flex-grow: 1;
-}
 
+}
 .portfolio__img {
-   width: 200px;
+    width: 350px;
+}
+.portfolio__img {
+    flex-basis: 250px;
+    flex-grow: 1;
 }
 
 .portfolio__item {
