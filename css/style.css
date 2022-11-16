@@ -396,9 +396,21 @@ header {
     text-align: center;    
 }
 
-.portfolio {
+/* .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+} */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.portfolio__img {
+    width: 350px;
+}
+.portfolio__img {
+    flex-basis: 250px;
+    flex-grow: 1;
 }
 
 .portfolio__item {
@@ -422,6 +434,7 @@ header {
     transform: scale(1.2);
     opacity: .5;
 }
+
 
 
 /* footer */
