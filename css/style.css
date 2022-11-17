@@ -406,16 +406,17 @@ header {
 
 }
 .portfolio__img {
-    width: 350px;
+    width: 100%;
 }
-.portfolio__img {
-    flex-basis: 250px;
+.portfolio__item {
+    flex-basis: 300px;
     flex-grow: 1;
 }
 
 .portfolio__item {
     background: var(--clr-accent);
     overflow: hidden;
+    
 }
 
 .portfolio__img {
